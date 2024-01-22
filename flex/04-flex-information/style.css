@@ -24,3 +24,18 @@ img {
   justify-content: center;
   background: #eee;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.body-content {
+  display: flex;
+  gap: 10px;
+}
+.body-content > * {
+  /* width: 200px; */
+  flex: 1 1 200px;
+}

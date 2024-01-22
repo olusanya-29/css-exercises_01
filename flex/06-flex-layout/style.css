@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 body {
   height: 100vh;
   margin: 0;
@@ -24,4 +23,64 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+/* Styling starts from here */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.body-sub {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  align-items: center;
+} 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header > ul {
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 10px;
+}
+.header li {
+  font-size: 14px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+
+}.footer > ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+}
+li > a {
+  text-decoration: none;
+  color: #a8a3a3;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+button {
+  padding: 10px;
 }

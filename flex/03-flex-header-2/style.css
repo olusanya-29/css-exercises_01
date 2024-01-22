@@ -45,4 +45,25 @@ a {
 
 ul {
   list-style-type: none;
+  padding-left: 20px;
+}
+/* My solution starts from here */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-sub1 {
+  display: flex;
+}
+ul.links {
+  display: flex;
+  gap: 8px;
+}
+.header-sub2 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+.notifications {
+  margin: 10px;
 }
